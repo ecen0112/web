@@ -1,0 +1,48 @@
+body{
+margin: 10px;
+color: rgb(159, 170, 179);
+background-color: rgb(34, 34, 126);
+backface-visibility: visible;
+width: fit-content;
+height: fit-content;
+resize: both;
+overflow: scroll;
+
+
+  font-family: "Story Script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+
+}
+.box1 img{
+width: 200px;
+margin: 20px;
+}
+header{
+    display: grid;
+    grid-template-columns: .5fr 4fr;
+    border:ridge rgb(51, 27, 106);
+    border-radius: 5px;
+
+}
+.box1 h2 ,h4{
+    margin-left: 50px;
+    line-height: 20%;
+    font-size: 40px;
+    padding: auto;
+}
+.box1 h4{
+    font-size: 20px !important;
+}
+ main{
+       display: grid;
+    grid-template-columns: 4fr 4fr; 
+ }
+ .box3{
+    border:ridge rgb(51, 27, 106);
+    padding: 20px;
+    margin: 5px;
+    border-radius: 5px;
+
+ }
