@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ccc;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 40px;
+    border: solid 5px #441db7;
+    height: 600px;
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+.box2{
+    padding: 20px;
+    border: 5px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: black;
+    max-height: fit-content !important;
+}
+header{
+    background-color: darkblue;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+aside{
+    background-color: #441db7;
+     padding-left: 70px;
+     border-radius: 10px;
+margin-right: 5px;
+
+}
+li>a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+    font-size: 30px;
+
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+header input{
+    margin-left: 85%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+a:hover{
+   color: darkblue;
+}
+header h1{
+    display: inline;
+    color: white;
+    font-size: 40px;
+
+}
+
+</style>
+</head>
+<body>
+<header>
+   <h1>BUNNY PAGE</h1>
+   <input type="search" name="" id="">
+</header>
+<main>
+   <aside>
+    <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">PROJECT</a></li>
+        <li><a href="#">REPORTS</a></li>
+    </ul>
+   </aside>
+   <div class="box">
+    <div class="box2">
+        <h1>RESEARC</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error officiis impedit velit ducimus ipsum, commodi fuga quaerat nostrum atque quas debitis voluptatem, exercitationem optio harum quam itaque, possimus distinctio expedita?</p>
+    </div>
+    <div class="box2">
+        <h1>RESEARC</h1>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique beatae nobis earum officia? Error dolore eaque excepturi amet nisi consequuntur. Nostrum, corrupti voluptate? Dolorum cumque dolorem reiciendis, adipisci eligendi facilis!</p>
+    </div>
+    <div class="box2">
+        <h1>RESEARC</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias provident ullam quis aspernatur dolorem aperiam omnis impedit, consequatur, asperiores temporibus ea, voluptatum ex molestiae quisquam vero! Sequi esse nostrum nisi.</p>
+    </div>
+    <div class="box2">
+        <h1>RESEARC</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse possimus et fugiat quae, praesentium earum necessitatibus sed, officia sint error id dicta natus consequatur doloribus quos voluptas a ad beatae?</p>
+    </div>
+   </div>
+</main>
+</body>
+</html>
